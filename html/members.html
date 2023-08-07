@@ -41,8 +41,8 @@
                                 </li>
                             </ul>
                             <div class="d-flex align-items-center">
-                                <button type="button" class="btn btn-tertiary px-3" href="/html/publication.html"><a href="/html/publication.html" style="color: #ECECEC; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word;">Publication</a></button>
-                                <button type="button" class="btn btn-tertiary px-3" href="/html/members.html"><a href="/html/members.html" style="color: #ECECEC; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word;">Members</a></button>
+                                <button type="button" class="btn btn-tertiary px-3" href="/publication.html"><a href="/publication.html" style="color: #ECECEC; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word;">Publication</a></button>
+                                <button type="button" class="btn btn-tertiary px-3" href="/members.html"><a href="/members.html" style="color: #ECECEC; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word;">Members</a></button>
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,50 @@
             </header>
             <!-- Header End -->
             <!-- Content Start -->
-            <div class="container-fluid" id="content" style="background: linear-gradient(#0B081C, #0B0121)">
-                
+            <div class="container-fluid" id="content" style="background-color: white;">
+                <div class="professor">
+                    <div class="line">
+                        Professor
+                    </div>
+                    <div class="profile"></div>
+                </div>
+                <div class="student">
+                    <div class="line">
+                        Student
+                    </div>
+                </div>
             </div>
             <!-- Content End -->
         </div>
     </body>
+    <style type="text/css">
+        .line {
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: rgba(0, 0, 0, 35);
+            font-size: 14px;
+            margin: 8px 0px;
+        }
+
+        .line::before {
+            content: "";
+            flex-grow: 1;
+            margin: 0px 16px;
+            background: rgba(0, 0, 0, 35);
+            height: 1px;
+            font-size: 0px;
+            line-height: 0px;
+        }
+
+        .line::after {
+            content: "";
+            flex-grow: 1;
+            margin: 0px 16px;
+            background: rgba(0, 0, 0, 35);
+            height: 1px;
+            font-size: 0px;
+            line-height: 0px;
+        }
+    </style>
 </html>
