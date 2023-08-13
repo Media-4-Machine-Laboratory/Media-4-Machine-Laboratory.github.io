@@ -37,7 +37,7 @@
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item active" style="margin-left: 50%; padding-top: 10%;">
-                                    <a href="/" class="nav-link" style="color: #ECECEC; font-size   : 22px; font-family: Montserrat; font-weight: 700; line-height: 24px; word-wrap: break-word;">M4ML</a>
+                                    <a href="/" class="nav-link" style="color: #ECECEC; font-size: 22px; font-family: Montserrat; font-weight: 700; line-height: 24px; word-wrap: break-word;">M4ML</a>
                                 </li>
                             </ul>
                             <div class="d-flex align-items-center">
@@ -55,7 +55,16 @@
                     <div class="line">
                         Professor
                     </div>
-                    <div class="profile"></div>
+                    <div class="profile-box container d-flex justify-content-center">
+                        <div class="card border border-dark h-100" style="max-width: 160px;">
+                            <div class="card-header">
+                                <div class="card_image"></div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title text-center">서정일</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="student">
                     <div class="line">
@@ -94,6 +103,15 @@
             height: 1px;
             font-size: 0px;
             line-height: 0px;
+        }
+
+        .card_image {
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-position: -0px -0px;
+            background-size: cover;
+            background-image: url("./profile_base.png");
         }
     </style>
 </html>
