@@ -6,6 +6,7 @@
         <title>M4ML</title>
         
         <link rel="stylesheet" href="./css/main.css" type="text/css" />
+        <link rel="stylesheet" href="./css/members.css" type="text/css" />
 
         <!-- Font Awesome -->
         <link
@@ -28,148 +29,303 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
         ></script>
     </head>
-    <body style="background-color: #ECECEC;">
-        <div class="wrap" style="background-color: #ECECEC;">
+    <body style="background-color: white;">
+        <div class="wrap" style="background-color: white;">
             <!-- Header Start -->
             <header>
-                <nav class="navbar navbar-expand navbar-light" style="background-color: #01063e;">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item active" style="margin-left: 50%; padding-top: 10%;">
-                                    <a href="/" class="nav-link" style="color: #ECECEC; font-size: 28px; font-family: Pretendard-Regular; font-weight: 800; line-height: 24px; word-wrap: break-word;">M4ML</a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top" style="background-color: rgba(1, 6, 62, 0.8)">
+                    <div class="container-fluid justify-content-between">
+                        <button
+                          data-mdb-collapse-init
+                          class="navbar-toggler"
+                          type="button"
+                          data-mdb-target="#header"
+                          aria-controls="header"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="header">
+                            <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-3 me-lg-1 active">
+                                    <a class="nav-link" aria-current="page" href="/" style="margin-left: 2%;">Logo</a>
                                 </li>
                             </ul>
-                            <div class="d-flex align-items-center">
-                                <button type="button" class="btn btn-tertiary px-3" href="/html/publication.html"><a href="/html/publication.html" style="color: #ECECEC; font-size: 16px; font-family: Pretendard-Regular; font-weight: 400; line-height: 24px; word-wrap: break-word;">Publication</a></button>
-                                <button type="button" class="btn btn-tertiary px-3" href="/html/members.html"><a href="/html/members.html" style="color: #ECECEC; font-size: 16px; font-family: Pretendard-Regular; font-weight: 400; line-height: 24px; word-wrap: break-word;">Members</a></button>
-                            </div>
+                            <ul class="navbar-nav flex-row d-flex w-auto">
+                                <li class="nav-item me-3 me-lg-1">
+                                    <a class="nav-link" href="/html/introduction.html" style="color: white">Introduction</a>
+                                </li>
+                                <li class="nav-item me-3 me-lg-1">
+                                    <a class="nav-link" href="/html/members.html" style="color: white">Members</a>
+                                </li>
+                                <li class="nav-item me-3 me-lg-1">
+                                    <a class="nav-link" href="/html/publication.html" style="color: white">Publications</a>
+                                </li>
+                          </ul>
                         </div>
                     </div>
                 </nav>
+                <div><br></div>
             </header>
             <!-- Header End -->
+            <br><br><br><br>
             <!-- Content Start -->
-            <div class="container-fluid" id="content" style="background-color: #ECECEC;">
+            <div class="container" style="margin-left: 10%;">
                 <div class="professor">
-                    <div class="" style="font-family: Pretendard-Regular; font-size: 20px; margin-top: 2%; margin-bottom: 3%; margin-left: 2%; color: black;">
+                    <div class="" style="font-family: Pretendard-Regular; font-size: 32px; margin-top: 2%; margin-bottom: 3%; margin-left: 0%; color: black;">
                         Professor
                     </div>
-                    <div class="profile-box container d-flex justify-content-center">
-                        <div class="card border border-dark" style="width: 13rem; height: 20rem;">
-                            <div class="card-header">
-                                <div class="card_image">
-                                    <img src="../image/profile_professor.png" class="profile" alt="프로필" />
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;JeongIl Seo</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Associate Professor</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;jeongilseo@dau.ac.kr</span></p>
                                 </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title text-center">서정일 <span style="font-size: 8px; color: gray;">지도교수</span></div>
-                                <div class="profile_button text-center">
-                                    <button type="button" class="btn btn-tertiary text-center" data-mdb-ripple-color="light"><a href="/html/members/professor.html" class="text-center">상세페이지</a></button>
+                                <div class="profile-infobox">
+                                    <ul>
+                                        <li>2023. ~ Present : 동아대학교 컴퓨터AI공학부 부교수.</li>
+                                        <li>2010. ~ 2011. : University of Southamton (영국) ISVR(음향공학연구센터) 주재연구원</li>
+                                        <li>2000. ~ 2023. : 한국전자통신연구원(ETRI) 실감미디어연구실 실장 / 첵임연구원</li>
+                                        <li>1998. ~ 2000. : (주)LG반도체 중앙연구소 / MCU설계 3팀 선임연구원</li>
+                                        <li>1996. ~ 2005. : 경북대학교, 공학박사 / 전자공학과</li>
+                                        <li>1994. ~ 1996. : 경북대학교, 공학석사 / 전자공학과</li>
+                                        <li>1990. ~ 1994. : 경북대학교, 공학사 / 전자공학과</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="student" style="margin-top: 10px; margin-bottom:3%; background-color: #ECECEC;">
-                    <div class="" style="font-family: Pretendard-Regular; font-size: 20px; margin-top: 2%; margin-bottom: 5%; margin-left: 2%; color: black;">
+                <br>
+                <hr>
+                <div class="student" style="margin-top: 10px; margin-bottom:3%; background-color: white;">
+                    <div class="" style="font-family: Pretendard-Regular; font-size: 32px; margin-top: 2%; margin-bottom: 5%; margin-left: 0%; color: black;">
+                        Graduate
+                    </div>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/subinbyeon.html" style="color:black">&nbsp;&nbsp;Subin Byun</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Master</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;2471322@donga.ac.kr</span></p>
+                                </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="" style="font-family: Pretendard-Regular; font-size: 32px; margin-top: 2%; margin-bottom: 5%; margin-left: 0%; color: black;">
                         Undergraduate
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <div class="profile-box container d-flex justify-content-center">
-                                <div class="card border border-dark" style="width: 13rem; height: 20rem;">
-                                    <div class="card-header">
-                                        <div class="card_image">
-                                            <img src="../image/profile_jsk.jpg" class="profile" alt="프로필" />
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="card-title text-center">전상균 <span style="font-size: 8px; color: gray;">학부연구생</span></div>
-                                        <div class="profile_button text-center">
-                                            <button type="button" class="btn btn-tertiary text-center" data-mdb-ripple-color="light"><a href="/html/members/sangkyunjeon.html" class="text-center">상세페이지</a></button>
-                                        </div>
-                                    </div>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_jsk.jpg" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;SangKyun Jeon</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Undergraduate, Junior</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;sangkyun.jeon@gmail.com</span></p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="profile-box container d-flex justify-content-center">
-                                <div class="card border border-dark" style="width: 13rem; height: 20rem;">
-                                    <div class="card-header">
-                                        <div class="card_image"></div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="card-title text-center">이동민 <span style="font-size: 8px; color: gray;">학부연구생</span></div>
-                                        <div class="profile_button text-center">
-                                            <button type="button" class="btn btn-tertiary text-center" data-mdb-ripple-color="light"><a href="/html/members/dongminlee.html" class="text-center">상세페이지</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="profile-box container d-flex justify-content-center">
-                                <div class="card border border-dark" style="width: 13rem; height: 20rem;">
-                                    <div class="card-header">
-                                        <div class="card_image"></div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="card-title text-center">정영훈 <span style="font-size: 8px; color: gray;">학부연구생</span></div>
-                                        <div class="profile_button text-center">
-                                            <button type="button" class="btn btn-tertiary text-center" data-mdb-ripple-color="light"><a href="/html/members/yeonghunjeong.html" class="text-center">상세페이지</a></button>
-                                        </div>
-                                    </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <br><br>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;Dongmin Lee</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Undergraduate, Junior</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;jeongilseo@dau.ac.kr</span></p>
+                                </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;Yeonghun Jeong</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Undergraduate, Junior</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;jeongilseo@dau.ac.kr</span></p>
+                                </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;Subin Cho</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Undergraduate, Junior</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;jeongilseo@dau.ac.kr</span></p>
+                                </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="profile-box">
+                        <div class="d-flex">
+                            <img src="../image/profile_professor.png" class="profile-image" style="height:280px; width: 240px; margin-right: 5%;"/>
+                            <div class="profile-info">
+                                <h2 style="font-family: Pretendard-Regular;"><a href="./members/professor.html" style="color:black">&nbsp;&nbsp;SeongJun Park</a></h2>
+                                <span style="font-size: 20px; font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;Undergraduate, Senior</span>
+                                <div class="profile-email">
+                                    <p class="profile_email" style="font-family: Pretendard-Regular;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i><span>&nbsp;jeongilseo@dau.ac.kr</span></p>
+                                </div>
+                                <div class="profile-infobox">
+                                    <span class="badge rounded-pill badge-primary ms-2" style="font-size: 16px; height: 2em;">Computer Vision</span><span class="badge rounded-pill badge-secondary ms-2" style="font-size: 16px; height: 2em;">Video Coding</span><p></p>
+                                    <span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">VCM</span><span class="badge badge-dark ms-2" style="font-size: 16px; height: 1.5em;">3D Face Reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
                 </div>
             </div>
             <!-- Content End -->
+            <!-- Footer -->
+            <br><br>
+            <div class="container-fluid">
+                <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+                    <!-- Section: Social media -->
+                    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                      <!-- Left -->
+                      <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with us on social networks:</span>
+                      </div>
+                      <!-- Left -->
+                  
+                      <!-- Right -->
+                      <div>
+                        <a href="" class="me-4 text-reset">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        
+                        <a href="https://github.com/Media-4-Machine-Laboratory" class="me-4 text-reset">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </div>
+                      <!-- Right -->
+                    </section>
+                    <!-- Section: Social media -->
+                  
+                    <!-- Section: Links  -->
+                    <section class="">
+                      <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                          <!-- Grid column -->
+                          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              <i class="fas fa-gem me-3"></i>M4MLab
+                            </h6>
+                            <p>
+                              Here you can use rows and columns to organize your footer content. Lorem ipsum
+                              dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              Projects
+                            </h6>
+                            <p>
+                              <a href="#!" class="text-reset">VCM</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">3D Face Reconstruction</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              Useful links
+                            </h6>
+                            <p>
+                              <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                              <a href="#!" class="text-reset">Help</a>
+                            </p>
+                          </div>
+                          <!-- Grid column -->
+                  
+                          <!-- Grid column -->
+                          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                            <p>
+                              <i class="fas fa-envelope me-3"></i>
+                              jeongilseo@dau.ac.kr
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                          </div>
+                          <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                      </div>
+                    </section>
+                    <!-- Section: Links  -->
+                  
+                    <!-- Copyright -->
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                      © 2024 Copyright:
+                      <a class="text-reset fw-bold" href="http://m4ml.re.kr/">Media-4-Machine-Laboratory</a>
+                    </div>
+                    <!-- Copyright -->
+                  </footer>
+            </div>
         </div>
     </body>
-    <style type="text/css">
-        .line {
-            display: flex;
-            flex-basis: 100%;
-            align-items: center;
-            color: rgba(0, 0, 0, 35);
-            font-size: 14px;
-            margin: 8px 0px;
-        }
-
-        .line::before {
-            content: "";
-            flex-grow: 1;
-            margin: 0px 16px;
-            background: rgba(0, 0, 0, 35);
-            height: 1px;
-            font-size: 0px;
-            line-height: 0px;
-        }
-
-        .line::after {
-            content: "";
-            flex-grow: 1;
-            margin: 0px 16px;
-            background: rgba(0, 0, 0, 35);
-            height: 1px;
-            font-size: 0px;
-            line-height: 0px;
-        }
-
-        .card_image {
-            width: 150px;
-            height: 150px;
-            border-radius: 70%;
-            overflow: hidden;
-        }
-
-        .profile {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    </style>
 </html>
